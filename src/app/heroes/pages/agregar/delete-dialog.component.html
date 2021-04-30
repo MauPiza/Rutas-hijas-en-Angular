@@ -1,0 +1,11 @@
+<h1 matDialogTitle>¿Seguro que deseas eliminar el registro?</h1>
+<mat-dialog-content>
+  <p>Esta accion no se podrá deshacer</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-raised-button color="warn" [matDialogClose]="true">
+    Eliminar
+  </button>
+  <span class="spacer"></span>
+  <button mat-stroked-button matDialogClose>Cancelar</button>
+</mat-dialog-actions>
